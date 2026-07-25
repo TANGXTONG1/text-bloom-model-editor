@@ -4,7 +4,26 @@ Text Bloom is an open-source browser editor that turns Chinese text, logos, and 
 
 **Live demo: <http://118.145.70.247/text-model-editor/>**
 
-![Text Bloom editor](public/og.png)
+![Text Bloom web preview cover](public/og.png)
+
+## From browser to physical prints
+
+The following images are real Bambu Studio and printed results, not concept renders. The browser viewport and 3MF exporter share the same mesh pipeline.
+
+<table>
+  <tr>
+    <td width="33%"><img src="docs/images/bambu-studio-build-plate.jpg" alt="Colored text signs arranged in Bambu Studio" /></td>
+    <td width="33%"><img src="docs/images/real-print-batch.jpg" alt="A full build plate of printed Chinese text signs" /></td>
+    <td width="33%"><img src="docs/images/finished-text-signs.jpg" alt="Finished multicolor Chinese text signs" /></td>
+  </tr>
+  <tr>
+    <td align="center">Four-color slicing</td>
+    <td align="center">Batch printing</td>
+    <td align="center">Finished pieces</td>
+  </tr>
+</table>
+
+See the [full showcase](docs/SHOWCASE.md) for larger images.
 
 ## Features
 

@@ -8,7 +8,26 @@
 
 **在线体验：<http://118.145.70.247/text-model-editor/>**
 
-![字花模型编辑器界面](public/og.png)
+![字花模型编辑器网页预览封面](public/og.png)
+
+## 从编辑器到真实成品
+
+这些不是概念渲染：下图分别是 Bambu Studio 排盘、真实批量打印和最终成品。网页预览与 3MF 导出使用同一套网格管线。
+
+<table>
+  <tr>
+    <td width="33%"><img src="docs/images/bambu-studio-build-plate.jpg" alt="Bambu Studio 中排布的彩色文字花模型" /></td>
+    <td width="33%"><img src="docs/images/real-print-batch.jpg" alt="打印板上的救火圣手彩色字牌" /></td>
+    <td width="33%"><img src="docs/images/finished-text-signs.jpg" alt="我恨P人和救火圣手彩色成品" /></td>
+  </tr>
+  <tr>
+    <td align="center">切片与四色排盘</td>
+    <td align="center">一盘批量打印</td>
+    <td align="center">实物效果</td>
+  </tr>
+</table>
+
+更多大图见 [作品展示](docs/SHOWCASE.md)。
 
 ## 它能做什么
 
@@ -106,6 +125,7 @@ npm run export:self-hosted
 
 - [拓竹社区 / MakerWorld 首发包](docs/MAKERWORLD_RELEASE.md)
 - [小红书、朋友圈与公司群宣传文案](docs/LAUNCH_COPY.md)
+- [网页、切片与实物效果图](docs/SHOWCASE.md)
 - [版本发布检查清单](docs/RELEASING.md)
 
 ## 许可证

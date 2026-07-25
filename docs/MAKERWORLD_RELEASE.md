@@ -2,6 +2,8 @@
 
 这份材料按“先发布一个真实可打印示例，再引导大家使用开源编辑器生成自己的版本”设计。
 
+![适合用作 MakerWorld 实物效果图的成品照片](images/finished-text-signs.jpg)
+
 ## 推荐首发定位
 
 **模型标题**
@@ -78,6 +80,17 @@ AMS, customizable, typography, cute, open source
 4. **场景**：挂在工位、背包、会议室门牌或活动现场。
 5. **切片图**：对象列表和耗材映射可见。
 6. **编辑器动图**：改字、拖图案、旋转 3D、下载 3MF，控制在 8–12 秒。
+
+现有素材可以这样分工：
+
+| 素材 | 推荐用途 |
+| --- | --- |
+| `finished-text-signs.jpg` | MakerWorld 主图候选，展示两套配色与最终质感 |
+| `real-print-batch.jpg` | 证明可批量打印，适合作为第 2–3 张详情图 |
+| `bambu-studio-build-plate.jpg` | 展示四色排盘与切片结果，不建议作为主封面 |
+| `public/og.png` | GitHub、网页分享和工具介绍封面 |
+
+![一盘真实批量打印效果](images/real-print-batch.jpg)
 
 封面和图片里不要放外部平台二维码。GitHub 链接只作为与模型直接相关的源码说明；如果当前审核不接受描述外链，就把项目名写为 `Text Bloom Model Editor`，并将链接放到 MakerWorld 个人资料允许的社交链接位置。
 

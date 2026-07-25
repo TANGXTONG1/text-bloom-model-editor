@@ -1,5 +1,7 @@
 # 首发宣传文案包
 
+![小红书首发可使用的真实成品效果](images/finished-text-signs.jpg)
+
 ## 小红书标题备选
 
 1. 为了给公司整点活，我做了个中文彩色 3D 字牌生成器
@@ -10,7 +12,7 @@
 
 推荐首发用第 1 个；封面大字可以写：
 
-> 给公司整点好玩的  
+> 给公司整点好玩的<br>
 > 中文梗牌生成器开源
 
 ## 小红书正文
@@ -25,9 +27,9 @@
 
 代码已经用 MIT 开源，原创示例模型用 CC BY 4.0。想自己改图案、加公司内部玩法，或者单纯拿来学浏览器建模都可以。
 
-在线编辑器：[上线后填链接或放主页]  
-GitHub：<https://github.com/TANGXTONG1/text-bloom-model-editor>  
-MakerWorld：[发布后填链接]
+- 在线编辑器：[上线后填链接或放主页]
+- GitHub：<https://github.com/TANGXTONG1/text-bloom-model-editor>
+- MakerWorld：[发布后填链接]
 
 提醒一下：带公司 Logo 的公开版本一定先确认授权；第一次打印也要在 Bambu Studio 里核对尺寸和四个耗材槽位。
 
@@ -58,6 +60,23 @@ MakerWorld：[发布后填链接]
 - 揭板：从热床拿起，转到侧面展示分层。
 - 使用场景：工位、背包、会议室门牌三选一。
 - 结尾：GitHub README 和 MakerWorld 模型页，避免二维码铺满画面。
+
+### 现有图片的发帖顺序
+
+<table>
+  <tr>
+    <td width="33%"><img src="images/finished-text-signs.jpg" alt="两款最终成品" /></td>
+    <td width="33%"><img src="images/real-print-batch.jpg" alt="救火圣手批量打印" /></td>
+    <td width="33%"><img src="images/bambu-studio-build-plate.jpg" alt="我恨P人切片排盘" /></td>
+  </tr>
+  <tr>
+    <td align="center">1. 成品钩子</td>
+    <td align="center">2. 真实打印证明</td>
+    <td align="center">3. 切片过程</td>
+  </tr>
+</table>
+
+第 4 张放 `public/og.png` 或实际网页全屏截图，第 5 张再放 GitHub README。这样叙事顺序是“先看到好玩的东西 → 证明真的打出来了 → 展示怎么做 → 最后给工具和源码”。
 
 ## 公司群版本
 
