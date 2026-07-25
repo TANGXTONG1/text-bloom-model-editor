@@ -15,13 +15,24 @@ import {
   VIEW_WIDTH,
 } from "../app/model-geometry.ts";
 
-const macCjkFont = "/System/Library/Fonts/Supplemental/Arial Unicode.ttf";
-if (existsSync(macCjkFont)) {
-  GlobalFonts.registerFromPath(macCjkFont, "Geometry Test CJK");
-}
-const fontFamily = existsSync(macCjkFont)
-  ? '"Geometry Test CJK"'
-  : "sans-serif";
+const cjkFontCandidates = [
+  process.env.TEXT_BLOOM_TEST_FONT,
+  "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+  "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+].filter(Boolean);
+const cjkFont = cjkFontCandidates.find((fontPath) => existsSync(fontPath));
+
+assert.ok(
+  cjkFont,
+  "Install a CJK font or set TEXT_BLOOM_TEST_FONT before running geometry tests",
+);
+assert.ok(
+  GlobalFonts.registerFromPath(cjkFont, "Geometry Test CJK"),
+  `Failed to register CJK test font: ${cjkFont}`,
+);
+
+const fontFamily = '"Geometry Test CJK"';
 
 const defaultDecorations = [
   {
