@@ -1,0 +1,58 @@
+name: Bug 报告
+description: 报告界面、3D 预览、几何或 3MF 导出问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。几何问题请尽量提供最小复现输入和截图，但不要上传无权公开的公司 Logo。
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题描述
+      placeholder: 实际发生了什么？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 输入……
+        2. 添加……
+        3. 点击……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器与版本
+      placeholder: Chrome 138 / Safari 19
+    validations:
+      required: true
+  - type: input
+    id: slicer
+    attributes:
+      label: 切片软件与版本
+      placeholder: Bambu Studio 版本；不涉及 3MF 可填“不适用”
+  - type: textarea
+    id: assets
+    attributes:
+      label: 截图、日志或最小 SVG
+      description: 请移除私人信息和未授权素材。
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我搜索过现有 Issue，没有发现相同问题。
+          required: true
+        - label: 我有权公开这里附带的素材。
+          required: true
