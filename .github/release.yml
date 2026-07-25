@@ -1,0 +1,25 @@
+changelog:
+  exclude:
+    labels:
+      - skip-changelog
+    authors:
+      - dependabot
+
+  categories:
+    - title: 3D geometry and export
+      labels:
+        - geometry
+        - 3mf
+    - title: Editor and decorations
+      labels:
+        - enhancement
+        - design
+    - title: Fixes
+      labels:
+        - bug
+    - title: Documentation
+      labels:
+        - documentation
+    - title: Other changes
+      labels:
+        - "*"
